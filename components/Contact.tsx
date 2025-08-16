@@ -46,7 +46,7 @@ export default function Contact() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Let's Connect!
+          Let&apos;s Connect!
         </motion.h2>
 
         <motion.p
@@ -56,7 +56,7 @@ export default function Contact() {
           transition={{ delay: 0.2, duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Ready to discuss full-stack development 💻, new AI technologies 🤖, cloud & DevOps ☁️🛠️, or just have a good conversation about tech ⚡ and life 🌱? I'm always up for connecting and sharing ideas! ✨
+          Ready to discuss full-stack development 💻, new AI technologies 🤖, cloud & DevOps ☁️🛠️, or just have a good conversation about tech ⚡ and life 🌱? I&apos;m always up for connecting and sharing ideas! ✨
 
         </motion.p>
 
