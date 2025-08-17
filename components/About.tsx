@@ -16,7 +16,7 @@ export default function About() {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        About Me
+        About Me !
       </motion.h2>
 
       <motion.div
