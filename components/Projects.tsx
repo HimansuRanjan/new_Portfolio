@@ -6,6 +6,14 @@ import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
   {
+    title: "TawKio - Social Media App",
+    description:
+      "TawKio is a social media app for connecting and sharing. Users can post, like, comment, and chat in real-time, including video calls, all within a smooth, interactive interface.",
+    tech: ["React", "Node.js", "JavaScript", "TypeScript", "PostgreSQL", "Prisma", "Redux", "Tailwind CSS", "Socket.io", "WebRTC", "Redis"],
+    github: "https://github.com/HimansuRanjan/TawKio",
+    demo: "#",
+  },
+  {
     title: "Blogging App",
     description:
       "A personal blogging platform built with React, Node.js, Express, PostgreSQL, and Prisma. Supports posts with text, images, code blocks, likes, comments, and sharing.",
