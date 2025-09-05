@@ -11,7 +11,7 @@ const projects = [
       "TawKio is a social media app for connecting and sharing. Users can post, like, comment, and chat in real-time, including video calls, all within a smooth, interactive interface.",
     tech: ["React", "Node.js", "JavaScript", "TypeScript", "PostgreSQL", "Prisma", "Redux", "Tailwind CSS", "Socket.io", "WebRTC", "Redis"],
     github: "https://github.com/HimansuRanjan/TawKio",
-    demo: "#",
+    demo: "https://tawkio-socialmedia.vercel.app",
   },
   {
     title: "Blogging App",
