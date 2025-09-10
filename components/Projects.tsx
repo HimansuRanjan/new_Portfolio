@@ -1,15 +1,28 @@
 // components/Projects.tsx
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Github, ExternalLink } from "lucide-react"
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
     title: "TawKio - Social Media App",
     description:
       "TawKio is a social media app for connecting and sharing. Users can post, like, comment, and chat in real-time, including video calls, all within a smooth, interactive interface.",
-    tech: ["React", "Node.js", "JavaScript", "TypeScript", "PostgreSQL", "Prisma", "Redux", "Tailwind CSS", "Socket.io", "WebRTC", "Redis"],
+    tech: [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Redux",
+      "Tailwind CSS",
+      "Socket.io",
+      "WebRTC",
+      "Redis",
+    ],
     github: "https://github.com/HimansuRanjan/TawKio",
     demo: "https://tawkio-socialmedia.vercel.app",
   },
@@ -17,7 +30,16 @@ const projects = [
     title: "Blogging App",
     description:
       "A personal blogging platform built with React, Node.js, Express, PostgreSQL, and Prisma. Supports posts with text, images, code blocks, likes, comments, and sharing.",
-    tech: ["React", "Node.js","JavaScript","TypeScript", "PostgreSQL", "Prisma","Redux", "Tailwind CSS"],
+    tech: [
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript",
+      "PostgreSQL",
+      "Prisma",
+      "Redux",
+      "Tailwind CSS",
+    ],
     github: "https://github.com/HimansuRanjan/dailyTalk",
     demo: "#",
   },
@@ -33,12 +55,19 @@ const projects = [
     title: "Personal Portfolio with Admin",
     description:
       "A dynamic portfolio platform featuring an Admin Dashboard with full access control. Supports adding projects, skills, and applications through secure login. Designed with a sleek UI, responsive design, and smooth workflows to showcase work with style and flexibility.",
-    tech: ["Node.js", "Express.js", "React.js", "JavaScript", "MongoDB", "Tailwind CSS", "Redux"],
+    tech: [
+      "Node.js",
+      "Express.js",
+      "React.js",
+      "JavaScript",
+      "MongoDB",
+      "Tailwind CSS",
+      "Redux",
+    ],
     github: "https://github.com/HimansuRanjan/MyPortfolio_With_Admin",
     demo: "https://himansu-ranjan-profile.netlify.app/",
-  }
-  
-]
+  },
+];
 
 export default function Projects() {
   return (
@@ -105,6 +134,21 @@ export default function Projects() {
           </motion.div>
         ))}
       </div>
+
+      {/* New Link to frontend projects page */}
+      <motion.div
+        className="mt-16"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        viewport={{ once: true }}
+      >
+        <Link href="/frontend-projects" passHref>
+          <span className="px-5 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+            View Frontend Projects →
+          </span>
+        </Link>
+      </motion.div>
     </section>
-  )
+  );
 }
