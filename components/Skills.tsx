@@ -24,8 +24,8 @@ const skillsData = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
       },
       { 
-        name: "Python", 
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+        name: "SQL", 
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" 
       },
     ]
     
@@ -44,8 +44,8 @@ const skillsData = [
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
       },
       { 
-        name: "Next.js", 
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
+        name: "Express.js", 
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" 
       },
       { 
         name: "Redux", 
@@ -53,7 +53,7 @@ const skillsData = [
       },
       { 
         name: "TailwindCSS", 
-        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" 
       },
     ]
     
@@ -76,7 +76,9 @@ const skillsData = [
     skills: [
       { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
       { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-      { name: "CI/CD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ci/ci-original.svg" },
+      { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+      { name: "CI/CD", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+      { name: "Postman", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" },
     ],
   },
 ]

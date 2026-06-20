@@ -28,12 +28,14 @@ export default function About() {
       >
         {/* Paragraph 1 */}
         <p>
-          I’m <span className="font-semibold text-blue-500">Himansu Ranjan Patra</span>,  
-          a passionate <strong>Full Stack Developer</strong> with 2.3+ years of experience in building  
-          scalable and secure web applications. Skilled in <strong>Node.js</strong>, <strong>Next.js</strong>,{" "}
-          <strong>Express.js</strong>, <strong>React.js</strong>, <strong>PostgreSQL</strong>,{" "}
-          <strong>MongoDB</strong>, and <strong>backend development</strong>. I focus on writing  
-          <strong> reliable, efficient, and secure code</strong> while delivering projects on time 🚀.
+          I'm <span className="font-semibold text-blue-500">Himansu Ranjan Patra</span>,
+          a passionate <strong>Full Stack Developer</strong> with <strong>3+ years of experience</strong>{" "}
+          building scalable, production-grade web applications. I'm currently a{" "}
+          <strong>Software Engineer at Accenture</strong>, driving feature development in the{" "}
+          <strong>healthcare domain</strong> using <strong>React.js</strong>, <strong>TypeScript</strong>,{" "}
+          <strong>Redux</strong>, <strong>Node.js</strong>, and <strong>Express.js</strong> within a{" "}
+          <strong>microservices architecture</strong>. I lean on AI tools like <strong>GitHub Copilot</strong> and{" "}
+          <strong>Claude</strong> to ship faster without compromising quality 🚀.
         </p>
 
         {/* Paragraph 2 */}

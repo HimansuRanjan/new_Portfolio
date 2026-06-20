@@ -43,7 +43,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.6 }}
       >
-        Passionate Full Stack Developer | Next.js, Node.js, React — turning ideas into production-ready solutions 🌐
+        Passionate Full Stack Developer | Node.js, React — turning ideas into production-ready solutions 🌐
       </motion.p>
 
       {/* Experience */}
@@ -53,7 +53,7 @@ export default function Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.6 }}
       >
-        2.3+ years of building scalable systems, debugging relentlessly, and continuously leveling up ⚡
+        3+ years of building scalable systems, debugging relentlessly, and continuously leveling up ⚡
       </motion.p>
 
       {/* Buttons */}
@@ -65,12 +65,12 @@ export default function Hero() {
           📩 Get In Touch
         </a>
         <a
-          href="https://drive.google.com/file/d/1AFh6OMzZeAtgX6bNYsR_cLeedcAL69G-/view?usp=sharing"
+          href="https://drive.google.com/file/d/1iXixaYw81Xjwyf_WvIFge1xWWq0bgmvu/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-2 border rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition"
         >
-          Hire Me - Resume
+          View Resume 
         </a>
       </div>
     </section>
