@@ -17,7 +17,6 @@ const navLinks = [
 ]
 
 export default function Navbar() {
-  const { theme, setTheme } = useTheme()
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (

@@ -2,7 +2,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Code, Layers, Database, Cloud, Wrench } from "lucide-react" // icons from lucide-react
+import Image from "next/image"
+import { Code, Layers, Database, Cloud } from "lucide-react" // icons from lucide-react
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
 const skillsData = [
@@ -133,7 +134,7 @@ export default function Skills() {
                                    dark:border-${section.color}-700 hover:shadow-md 
                                    hover:scale-105 transition-all duration-200 cursor-default`}
                       >
-                        <img src={skill.icon} alt={skill.name} className="w-4 h-4 mr-2" />
+                        <Image src={skill.icon} alt={skill.name} width={16} height={16} className="mr-2" />
                         {skill.name}
                       </div>
                     ))}

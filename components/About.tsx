@@ -28,9 +28,9 @@ export default function About() {
       >
         {/* Paragraph 1 */}
         <p>
-          I'm <span className="font-semibold text-blue-500">Himansu Ranjan Patra</span>,
+          I&apos;m <span className="font-semibold text-blue-500">Himansu Ranjan Patra</span>,
           a passionate <strong>Full Stack Developer</strong> with <strong>3+ years of experience</strong>{" "}
-          building scalable, production-grade web applications. I'm currently a{" "}
+          building scalable, production-grade web applications. I&apos;m currently a{" "}
           <strong>Software Engineer at Accenture</strong>, driving feature development in the{" "}
           <strong>healthcare domain</strong> using <strong>React.js</strong>, <strong>TypeScript</strong>,{" "}
           <strong>Redux</strong>, <strong>Node.js</strong>, and <strong>Express.js</strong> within a{" "}
@@ -40,7 +40,7 @@ export default function About() {
 
         {/* Paragraph 2 */}
         <p>
-          I hold a <strong>Bachelor’s in Computer Science</strong> from{" "}
+          I hold a <strong>Bachelor&apos;s in Computer Science</strong> from{" "}
           <strong>Gandhi Institute for Technological Advancement (GITA), Bhubaneswar</strong>.  
           My academic journey gave me a strong foundation in <strong>data structures, algorithms,  
           networking, operating systems,</strong> and <strong>databases</strong>, blending technical depth  
